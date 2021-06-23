@@ -1,10 +1,10 @@
 let USER_LX, USER_LY, USER_RX, USER_RY, USER_CX, USER_CY;
 
 Promise.all([
-    faceapi.nets.tinyFaceDetector.loadFromUri("../public/assets/models"),
-    faceapi.nets.faceLandmark68Net.loadFromUri("../public/assets/models"),
-    faceapi.nets.faceRecognitionNet.loadFromUri("../public/assets/models"),
-    faceapi.nets.faceExpressionNet.loadFromUri("../public/assets/models"),
+    faceapi.nets.tinyFaceDetector.loadFromUri("../covidbusters/public/assets/models"),
+    faceapi.nets.faceLandmark68Net.loadFromUri("../covidbusters/public/assets/models"),
+    faceapi.nets.faceRecognitionNet.loadFromUri("../covidbusters/public/assets/models"),
+    faceapi.nets.faceExpressionNet.loadFromUri("../covidbusters/public/assets/models"),
 ]).then(startVideo);
 
 const webcamVideo = document.querySelector("#webcamVideo");
