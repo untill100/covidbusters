@@ -5,7 +5,7 @@
     height: auto;
     perspective-origin: center;
     perspective: 500px;
-    transition: top 40s linear;
+    transition: top 20s linear;
     top: 100vh;
     z-index: 100;
     display: flex;
@@ -44,7 +44,7 @@
     font-family: 'notoSansKR', sans-serif;
     font-weight: 700;
     font-size: 1.75em;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 #p5-background {

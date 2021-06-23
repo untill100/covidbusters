@@ -175,6 +175,9 @@ function update_viruses() {
                 const app = document.querySelector("#app");
                 app.style.opacity = 0;
 
+                const score = document.querySelector("#score").innerText;
+                sessionStorage.setItem("score", score );
+
                 setTimeout(() => {
                     const message_gameover = document.querySelector("#message-gameover");
                     message_gameover.style.opacity = 1;

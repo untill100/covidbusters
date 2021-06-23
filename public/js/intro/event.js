@@ -32,7 +32,7 @@ function handle_intro() {
         app.style.opacity = 0;
 
         move_to_link("select.html");
-    }, 41 * 1000);
+    }, 21 * 1000);
 }
 
 function move_to_link(_link) {
