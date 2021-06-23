@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Covid Busters</title>
+    <link rel="stylesheet" href="./public/css/init.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+
+<body>
+    <div id="app">
+        <div id="content">
+            <!-- BACKGROUND -->
+            <div id="background" class="background"></div>
+            <div id="img-background" class="blur background"></div>
+            <div id="p5-background" class="blur background"></div>
+            <!-- TITLE -->
+            <div id="title" class="blur content-item">
+                <img src="./public/assets/image/title.svg" alt="title">
+            </div>
+            <!-- NOTICE -->
+            <div id="notice" class="blur content-item">
+                <p>PRESS ENTER TO START</p>
+            </div>
+            <!-- COPYRIGHT -->
+            <div id="copyright" class="blur content-item">
+                <p>© 2021 Montendo</p>
+            </div>
+        </div>
+
+        <!-- BGM -->
+        <audio id="audio" autoplay muted controls>
+            <source src="./public/assets/sound/monkey_1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+</body>
+
+<!-- SCRIPT -->
+<script src="./public/js/jquery.js"></script>
+<script src="./public/js/p5.min.js"></script>
+<script src="./public/js/class/MIZARU.js"></script>
+<script src="./public/js/class/IWAZARU.js"></script>
+<script src="./public/js/class/KIKAZARU.js"></script>
+<script src="./public/js/main/p5.js"></script>
+<script src="./public/js/main/event.js"></script>
+
+</html>

@@ -1,0 +1,56 @@
+#content {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    max-width: 960px;
+    font-family: 'universe', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+a {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-bottom: 1px solid white;
+}
+
+#your-score p {
+    font-size: 5em;
+    line-height: 1.1em;
+}
+
+#your-score a {
+    font-size: 0.5em;
+}
+
+.content-item {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+    z-index: 100;
+    text-align: center;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 25px;
+}
+
+#copyright p {
+    font-size: 1em;
+    font-family: 'universe', sans-serif;
+    font-weight: 900;
+}

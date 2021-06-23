@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Covid Busters</title>
+    <link rel="stylesheet" href="./public/css/init.css">
+    <link rel="stylesheet" href="./public/css/select.css">
+</head>
+
+<body>
+    <div id="app" style="background-color: black;">
+        <!-- P5 -->
+        <div id="p5-background" class="blur"></div>
+
+        <!-- TYPO ANIMATION -->
+        <div class="marquee-container-top blur">
+            <p class="marquee">
+                <span>SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY&nbsp;</span>
+            </p>
+            <p class="marquee marquee2">
+                <span>SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY&nbsp;</span>
+            </p>
+        </div>
+        <div class="marquee-container-bottom blur">
+            <p class="marquee">
+                <span>SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY&nbsp;</span>
+            </p>
+            <p class="marquee marquee2">
+                <span>SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY SELECT YOUR MUTANT MONKEY&nbsp;</span>
+            </p>
+        </div>
+
+        <!-- SELECT -->
+        <div id="select-grid">
+            <div class="select-grid-item blur">
+                <div class="monkey-name select-grid-item-child">
+                    <p>MIZARU</p>
+                </div>
+                <div class="mode-select-container select-grid-item-child">
+                    <div class="mode-select mode-select-item">
+                        <p>EASY</p>
+                    </div>
+                </div>
+                <div class="monkey-material select-grid-item-child">
+                    <p>MATERIAL</p>
+                    <p>Web Camera</p>
+                </div>
+            </div>
+
+            <div class="select-grid-item blur">
+                <div class="monkey-name select-grid-item-child">
+                    <p>IWAZARU</p>
+                </div>
+                <div class="mode-select-container select-grid-item-child">
+                    <div class="mode-select mode-select-item">
+                        <p>NORMAL</p>
+                    </div>
+                </div>
+                <div class="monkey-material select-grid-item-child">
+                    <p>MATERIAL</p>
+                    <p>MIC</p>
+                </div>
+            </div>
+
+            <div class="select-grid-item blur">
+                <div class="monkey-name select-grid-item-child">
+                    <p>KIKAZARU</p>
+                </div>
+                <div class="mode-select-container select-grid-item-child">
+                    <div class="mode-select mode-select-item">
+                        <p>HARD</p>
+                    </div>
+                </div>
+                <div class="monkey-material select-grid-item-child">
+                    <p>MATERIAL</p>
+                    <p>Keyboard, Speaker</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+<!-- SCRIPT -->
+<script src="./public/js/jquery.js"></script>
+<script src="./public/js/p5.min.js"></script>
+<script src="./public/js/class/MIZARU.js"></script>
+<script src="./public/js/class/IWAZARU.js"></script>
+<script src="./public/js/class/KIKAZARU.js"></script>
+<script src="./public/js/select/p5.js"></script>
+<script src="./public/js/select/event.js"></script>
+
+</html>

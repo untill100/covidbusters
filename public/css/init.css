@@ -1,0 +1,154 @@
+/* NOTO SERIF */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+
+/* FONT-FACE */
+
+@font-face {
+    font-family: "notoSansKR";
+    src: url("../assets/fonts/notosan-kr-regular.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "notoSansKR";
+    src: url("../assets/fonts/notosans-kr-bold.woff") format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "timesNewRoman";
+    src: url("../assets/fonts/times-bold-italic.woff") format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "evaFont";
+    src: url("../assets/fonts/matisse-eb.woff") format("woff");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "universe";
+    src: url("../assets/fonts/universe-normal.otf") format("otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "universe";
+    src: url("../assets/fonts/universe-extrabold.woff") format("woff");
+    font-weight: 900;
+}
+
+*,
+html,
+body,
+div,
+span,
+h3,
+h2,
+h1,
+a,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+    font-style: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    word-break: keep-all;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: black;
+}
+
+p {
+    font-family: 'notoSansKR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a {
+    font-family: 'notoSansKR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(150, 150, 150) !important;
+}
+
+
+/* app */
+
+#app {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes blockbuster {
+    from {
+        transform: scale(8);
+    }
+    top {
+        transform: scale(1);
+    }
+}
+
+@keyframes move-bg {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(-100%, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes awake-display {
+    from {
+        transform: translateX(-5px);
+    }
+    to {
+        transform: translateX(5px);
+    }
+}

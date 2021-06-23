@@ -1,0 +1,82 @@
+#content {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+#background {
+    background-color: rgb(255, 0, 0);
+}
+
+#img-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200vw;
+    height: auto;
+    min-height: 100%;
+    background-image: url('../assets/image/bg-city.png');
+    background-repeat: repeat-x;
+    background-size: 100vw;
+    background-position: bottom;
+    opacity: 0.3;
+    z-index: 0;
+    animation: move-bg 10s linear infinite;
+}
+
+.content-item {
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    text-align: center;
+}
+
+#title img {
+    max-width: 400px;
+}
+
+#title {
+    position: absolute;
+    top: 15vh;
+}
+
+#notice {
+    position: absolute;
+    bottom: 15vh;
+}
+
+#notice p {
+    font-size: 2em;
+    font-family: 'universe', sans-serif;
+    font-weight: 900;
+    animation: blink 2s ease-in-out infinite;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 25px;
+}
+
+#copyright p {
+    font-size: 1em;
+    font-family: 'universe', sans-serif;
+    font-weight: 900;
+}
+
+#audio {
+    display: none;
+}

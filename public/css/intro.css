@@ -1,0 +1,79 @@
+#intro {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    perspective-origin: center;
+    perspective: 500px;
+    transition: top 40s linear;
+    top: 100vh;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-item {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+}
+
+#title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#title img {
+    max-width: 400px;
+}
+
+#intro p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.intro-p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-family: 'notoSansKR', sans-serif;
+    font-weight: 700;
+    font-size: 1.75em;
+    line-height: 1.5em;
+}
+
+#p5-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#skip {
+    padding: 25px;
+    width: auto;
+    height: auto;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+#skip:hover p {
+    color: rgb(150, 150, 150);
+}
+
+#skip p {
+    width: auto;
+    height: auto;
+    font-family: 'universe', sans-serif;
+    font-weight: 900;
+    text-align: right;
+    color: white;
+    cursor: pointer;
+}
